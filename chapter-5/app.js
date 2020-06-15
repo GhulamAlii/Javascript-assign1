@@ -97,3 +97,31 @@ var calcu = (sm_num+5)*10/2
 
 document.write('<h1>Perform all calculations in a single expression  </h1><br/>');
 document.write('<h3>This is the  answer '+ calcu+ '</h3><br/>');
+
+// 11. The Age Calculator: Forgot how old someone is? Calculate it! //
+
+var current_date = 2020;
+var Birth_date = 2001;
+var current_age = current_date-Birth_date;
+
+document.write('<h1> The Age Calculator </h1><br/>');
+document.write('<h3> Current Year: '+current_date+'<br/> Birth Year: '+Birth_date+'<br/> Your Age is: '+current_age+'</h3><br/>');
+
+// 12. The Geometrizer: Calculate properties of a circle. a. Store a radius into a variable. //
+
+var radius = 30;
+var circumfer = 2*3.142*radius;
+var circle_area = 3.142*radius*2;
+
+document.write('<h1> The Geometrizer</h1><br/>');
+document.write('<h3> Radius of a Circle: '+radius+'<br/> The circumference is: '+circumfer+'<br/> The area is: '+circle_area+'</h3><br/>');
+
+// 13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more. 
+
+var snack ='chocolate';
+var curr_age = 18;
+var max_age = 70;
+var est_amount = 5;
+
+document.write('<h1>The Lifetime Supply Calculator</h1><br/>');
+document.write('<h3> Favourite Snack: '+snack+'<br/> Current Age: '+curr_age+'<br/>Estimated Maximum Age: '+max_age+'<br/>Amount of Snack per day: '+est_amount+'<br/>You will need '+((max_age-curr_age)*est_amount)+' '+snack+' to last you until the ripe old age of '+max_age+'</h3><br/>');
